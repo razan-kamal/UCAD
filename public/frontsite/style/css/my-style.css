@@ -1,0 +1,334 @@
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+a {
+  color: #3498db;
+}
+
+a:hover {
+  color: #3498db;
+}
+
+/*--------------------------------------------------------------
+# Back to top button
+--------------------------------------------------------------*/
+.back-to-top {
+  background: #3498db;
+}
+
+.back-to-top:hover {
+  background: #3498db;
+}
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+#header .logo a span {
+  color: #3498db;
+}
+
+/*--------------------------------------------------------------
+# Navigation Menu
+--------------------------------------------------------------*/
+@media (min-width: 992px) {
+.col-lg-6 {
+    flex: 0 0 54%;
+    max-width: 54%;
+  }
+}
+
+/* Desktop Navigation */
+.nav-menu ul {
+  margin: 0 0 0 0px;
+}
+
+.nav-menu > ul > li {
+  padding: 10px 0 10px 20px;
+}
+
+@media (max-width: 1200px) {
+  .nav-menu ul {
+    margin: 0 0 0 -30px;
+  }
+}
+
+
+/* Desktop Navigation */
+.nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
+  color: #3498db;
+}
+
+.nav-menu .drop-down ul {
+  border-top: 2px solid #3498db;
+}
+
+.nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
+  color: #3498db;
+}
+
+/* Mobile Navigation */
+.mobile-nav-toggle i {
+  color: #3498db;
+}
+
+@media (min-width: 768px) {
+  .mobile-nav-toggle {
+    top: 20px;
+  }
+}
+
+.mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
+  color: #3498db;
+}
+
+/*--------------------------------------------------------------
+# Header Social Links
+--------------------------------------------------------------*/
+.header-social-links {
+  padding-left: 7px;
+}
+
+.header-social-links a:hover {
+  color: #3498db;
+}
+
+/* Search Box Style */
+ .search-box {
+  position: absolute;
+  background: #e0eff9;
+  top: 77px;
+  right: 16.5%;
+  width: 350px;
+  height: auto;
+  border-top: 4px solid #3498db;
+  border-radius: 5px;
+  padding: 5px;
+} 
+
+ .search-box::before {
+  content: "";
+  position: absolute;
+  top: -60%;
+  right: 8%;
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  border-top: 14px solid transparent;
+  border-bottom: 14px solid #3498db;
+}
+
+.search-box input[type="text"] {
+  width: 200px;
+  padding: 5px 10px;
+  margin-left: 23px;
+  border: 1px solid #3498db;
+  outline: none;
+  height: auto;
+}
+
+.search-box input[type="button"] {
+  width: 80px;
+  padding: 5px 0;
+  background: #3498db;
+  border: 1px solid #3498db;
+  outline: none;
+  cursor: pointer;
+  color: #fff;
+  margin-left: -6px;
+}
+
+/* SEARCH BOX MEDIA QUERY */
+@media (min-width: 450px) {
+  .header-social-links div.search-box {
+    right: 22.5%;
+    top: 59px;
+  }
+}
+
+@media (min-width: 500px) {
+  .header-social-links div.search-box {
+    right: 24%;
+    top: 59px;
+  }
+}
+
+@media (min-width: 576px) {
+  .header-social-links div.search-box {
+    right: 26%;
+    top: 59px;
+  }
+}
+
+@media (min-width: 630px) {
+  .header-social-links div.search-box {
+    right: 30%;
+    top: 59px;
+  }
+}
+
+@media (min-width: 768px) {
+  .header-social-links div.search-box {
+    right: 19%;
+    top: 65px;
+  }
+}
+
+@media (min-width: 820px) {
+  .header-social-links div.search-box {
+    right: 21%;
+    top: 65px;
+  }
+}
+
+@media (min-width: 900px) {
+  .header-social-links div.search-box {
+    right: 25%;
+    top: 65px;
+  }
+}
+
+@media (min-width: 970px) {
+  .header-social-links div.search-box {
+    right: 15.5%;
+    top: 69px;
+  }
+}
+
+@media (min-width: 1020px) {
+  .header-social-links div.search-box {
+    right: 15.5%;
+    top: 75px;
+  }
+}
+
+@media (min-width: 1050px) {
+  .header-social-links div.search-box {
+    right: 17%;
+    top: 75px;
+  }
+}
+
+@media (min-width: 1110px) {
+  .header-social-links div.search-box {
+    right: 18%;
+    top: 77px;
+  }
+}
+
+@media (min-width: 1300px) {
+  .header-social-links div.search-box {
+    right: 20.5%;
+    top: 77px;
+  }
+}
+
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+#hero .carousel-content {
+  border-top: 5px solid #3498db;
+}
+
+#hero .btn-get-started {
+  border: 2px solid #3498db;
+}
+
+#hero .btn-get-started:hover {
+  background: #3498db;
+}
+
+#hero .carousel-indicators li.active {
+  background: #3498db;
+}
+
+/*--------------------------------------------------------------
+# Sections General
+--------------------------------------------------------------*/
+.section-title h2::after {
+  background: #3498db;
+}
+
+/*--------------------------------------------------------------
+# Breadcrumbs
+--------------------------------------------------------------*/
+.breadcrumbs {
+  background: #3498db;
+}
+
+  /*--------------------------------------------------------------
+  # Activities
+  --------------------------------------------------------------*/
+  .services div.ads {
+  border-left: 3px solid #3498db;
+}
+
+.services div.ads h2 {
+  border-bottom: 3px solid #3498db;
+  margin-bottom: 10px;
+}
+
+.services div.ads div[class="col-4"] {
+  padding: 10px;
+}
+
+.services div.ads div[class="col-8"] {
+  padding: 10px;
+  background-color: #3498db;
+  border-radius: 5px;
+}
+
+.services div.news h2 {
+  border-bottom: 3px solid #3498db;
+  margin-bottom: 10px;
+}
+
+/*--------------------------------------------------------------
+# Register
+--------------------------------------------------------------*/
+#jumbotron {
+  background-image: url(../assets/img/blog-3.jpg);
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+#jumbotron h1{
+  color: #fffffff0;
+  font-weight: bold;
+  padding: 10px;
+}
+
+#jumbotron p{
+  color: #ffffffa1;
+  padding: 10px 100px;
+}
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+#footer .footer-top .footer-links ul i {
+  color: #3498db;
+}
+
+#footer .footer-newsletter form input[type="submit"] {
+  background: #3498db;
+}
+
+#footer .footer-newsletter form input[type="submit"]:hover {
+  background: #3498db;
+}
+
+#footer .social-links a:hover {
+  background: #3498db;
+}
+
+/*--------------------------------------------------------------
+# SECTIONS FROM OTHER TEMPLATES
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Services
+--------------------------------------------------------------*/
+.services .icon-box {
+  text-align: left;
+}
