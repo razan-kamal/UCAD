@@ -28,8 +28,9 @@
   <!-- Template Main CSS File -->
   <link href="{{url('frontSite/style')}}/css/style.css" rel="stylesheet">
   <link href="{{url('frontSite/style')}}/css/my-style.css" rel="stylesheet">
-  <!-- <link href="{{url('frontSite/style')}}/css/style-ar.css" rel="stylesheet">   -->
-  
+  @if(true)
+  <link href="{{url('frontSite/style')}}/css/style-ar.css" rel="stylesheet">  
+  @endif
   <!-- =======================================================
   * Template Name: Company - v2.1.0
   * Template URL: https://bootstrapmade.com/company-free-html-bootstrap-template/
