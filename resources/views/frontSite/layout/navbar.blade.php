@@ -3,8 +3,17 @@
 
     <div  class="row">
         <div class="container d-flex align-items-center">
-            <div class="col-md-3">
-                <a href="index.html"><img src="{{url('frontSite/style')}}/assets/img/logo-en1.png" alt="" class="ya img-fluid" style="width: 300px"></a>
+            <div class="col-md-4">
+              <a href="index.html">
+                <div class="row">
+                  <div class="col-lg-3 p-0">
+                    <img src="{{url('frontSite/style')}}/assets/img/logo-en.png" alt="" class="img-fluid" style="width: 100px">
+                  </div>
+                  <div class="col-lg-9 p-0">
+                    <img src="{{url('frontSite/style')}}/assets/img/logo-ar.png" alt="" class="img-fluid" style="width: 300px">
+                  </div>
+                </div>
+              </a>
             </div>
 
             <div class="col-lg-6">
@@ -39,7 +48,7 @@
                 </nav><!-- .nav-menu -->
             </div>
 
-            
+
 
             <div class="header-social-links col-md-3" style="position: unset">
               <a href="#" class="search"><i class="icofont-search-2"></i></a>
@@ -48,13 +57,12 @@
                   <input type="text">
                   <input type="button" value="search">
                 </div>
-                
+
               <a href="#" class="facebook"><i class="icofont-facebook"></i></a>
               <a href="#" class="instagram"><i class="icofont-instagram"></i></a>
-              <a href="index-ar.html" class="language"><img src="{{url('frontSite/style')}}/assets/img/lang-swich.png" alt="" class="img-fluid" style="width: 18px"></a>
+              <a href="index-ar.html" class="language"><img src="{{url('frontSite/style')}}/assets/img/language.png" alt="" class="img-fluid" style="width: 18px"></a>
             </div>
         </div>
     </div>
-    
+
   </header><!-- End Header -->
- 
