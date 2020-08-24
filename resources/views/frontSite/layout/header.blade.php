@@ -16,8 +16,10 @@
 
   <!-- Vendor CSS Files -->
   <link href="{{url('frontSite/style')}}/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <!-- <link href="{{url('frontSite/style')}}/assets/vendor/bootstrap/css/bootstrap-rtl.css" rel="stylesheet"> -->
-  <link href="{{url('frontSite/style')}}/assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  @if (true)
+  <link href="assets/vendor/bootstrap/css/bootstrap-rtl.css" rel="stylesheet">
+  @endif
+  <link href="{{url('frontSite/style')}}/assets/vendor/icofont/icofont.css" rel="stylesheet">
   <link href="{{url('frontSite/style')}}/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
   <link href="{{url('frontSite/style')}}/assets/vendor/animate.css/animate.min.css" rel="stylesheet">
   <link href="{{url('frontSite/style')}}/assets/vendor/venobox/venobox.css" rel="stylesheet">
@@ -28,7 +30,7 @@
   <!-- Template Main CSS File -->
   <link href="{{url('frontSite/style')}}/css/style.css" rel="stylesheet">
   <link href="{{url('frontSite/style')}}/css/my-style.css" rel="stylesheet">
-  @if (false)
+  @if (true)
   <link href="{{url('frontSite/style')}}/css/style-ar.css" rel="stylesheet">
   @endif
 

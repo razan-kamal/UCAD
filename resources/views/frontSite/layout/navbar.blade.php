@@ -6,11 +6,11 @@
             <div class="col-md-4">
               <a href="index.html">
                 <div class="row">
-                  <div class="col-lg-3 p-0">
-                    <img src="{{url('frontSite/style')}}/assets/img/logo-en.png" alt="" class="img-fluid" style="width: 100px">
+                  <div class="col-sm-3 p-0">
+                    <img src="{{url('frontSite/style')}}/assets/img/logo.png" alt="" class="img-fluid" style="width: 100px">
                   </div>
-                  <div class="col-lg-9 p-0">
-                    <img src="{{url('frontSite/style')}}/assets/img/logo-ar.png" alt="" class="img-fluid" style="width: 300px">
+                  <div class="col-sm-9 p-0">
+                    <img src="{{url('frontSite/style')}}/assets/img/logo-text.png" alt="" class="img-fluid" style="width: 300px">
                   </div>
                 </div>
               </a>
@@ -53,10 +53,10 @@
             <div class="header-social-links col-md-3" style="position: unset">
               <a href="#" class="search"><i class="icofont-search-2"></i></a>
               <!-- Start Search Box -->
-                <div class="search-box d-none">
+                <!-- <div class="search-box d-none">
                   <input type="text">
                   <input type="button" value="search">
-                </div>
+                </div> -->
 
               <a href="#" class="facebook"><i class="icofont-facebook"></i></a>
               <a href="#" class="instagram"><i class="icofont-instagram"></i></a>
