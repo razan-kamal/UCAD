@@ -13,7 +13,7 @@
 
         <!-- Main Sidebar Container -->
         {{-- @include('frontSite.layout.sidebar') --}}
-		
+
 		@include('frontsite.layout.slider')
 		@include('frontsite.layout.services')
 
@@ -39,7 +39,7 @@
                     @includeWhen(false, 'frontSite.layout.small-boxes')
 
                     {{-- @include('frontSite.layout.small-boxes') --}}
-                    
+
                     <!-- /.row -->
 
                     @yield('content')
@@ -49,4 +49,3 @@
             <!-- /.content -->
         </div>
 @include('frontSite.layout.footer')
-

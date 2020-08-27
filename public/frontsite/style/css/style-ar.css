@@ -15,6 +15,10 @@ body {
     }
   }
 
+  .nav-menu ul {
+    margin-right: 10px;
+  }
+
   .mobile-nav .drop-down > a:after {
     padding-right: 10px;
     position: absolute;
@@ -26,11 +30,6 @@ body {
   --------------------------------------------------------------*/
   .header-social-links {
     border-left: 0;
-  }
-
-  .header-social-links::before {
-    content: "|";
-    color: #c4c4c4;
   }
 
   .header-social-links a {

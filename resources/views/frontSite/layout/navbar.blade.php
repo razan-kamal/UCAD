@@ -7,10 +7,10 @@
               <a href="index.html">
                 <div class="row">
                   <div class="col-sm-3 p-0">
-                    <img src="{{url('frontSite/style')}}/assets/img/logo.png" alt="" class="img-fluid" style="width: 100px">
+                    <img src="{{url('frontSite/style')}}/assets/img/logo.png" alt="" class="img-fluid" style="width: 80px">
                   </div>
                   <div class="col-sm-9 p-0">
-                    <img src="{{url('frontSite/style')}}/assets/img/logo-text.png" alt="" class="img-fluid" style="width: 300px">
+                    <img src="{{url('frontSite/style')}}/assets/img/logo-text.png" alt="" class="img-fluid" style="width: 280px">
                   </div>
                 </div>
               </a>
